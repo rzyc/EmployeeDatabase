@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Ear Challenger</string>
+    <string name="action_settings">Settings</string>
+    <string name="switch_modes">Switch Modes</string>
+    
+    <string name="p1">Perfect Unison</string>
+    <string name="min2">Minor 2nd</string>
+    <string name="maj2">Major 2nd</string>
+    <string name="min3">Minor 3rd</string>
+    <string name="maj3">Major 3rd</string>
+    <string name="p4">Perfect 4th</string>
+    <string name="a4">Augmented 4th</string>
+    <string name="p5">Perfect 5th</string>
+    <string name="min6">Minor 6th</string>
+    <string name="maj6">Major 6th</string>
+    <string name="min7">Minor 7th</string>
+    <string name="maj7">Major 7th</string>
+    <string name="p8">Perfect Octave</string>
+    <string name="playText">Play Interval</string>
+    <string name="zero">0/0</string>
+    <string name="resetText">Reset Score</string>
+    
+    <string name="s_note">Play Starting Note</string>
+    <string name="interval">Play Second Note</string>
+    <string name="reset">Reset (New Interval)</string>
+    <string name="srec">Start Recording</string>
+    <string name="erec">End Recording</string>
+    <string name="splay">Start Playing</string>
+
+</resources>
