@@ -1,0 +1,1058 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.5" maxVersion="1.8" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <NonVisualComponents>
+    <Container class="javax.swing.JDialog" name="exitDialog">
+      <Properties>
+        <Property name="title" type="java.lang.String" value="Diamond 2013"/>
+        <Property name="iconImage" type="java.awt.Image" editor="org.netbeans.modules.form.ComponentChooserEditor">
+          <ComponentRef name="null"/>
+        </Property>
+        <Property name="location" type="java.awt.Point" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+          <Connection code="new Point(mainWindow.getBounds().x + mainWindow.getBounds().width/2 - 250, mainWindow.getBounds().y + mainWindow.getBounds().height/2 - 75)" type="code"/>
+        </Property>
+        <Property name="minimumSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+          <Dimension value="[500, 125]"/>
+        </Property>
+        <Property name="preferredSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+          <Dimension value="[500, 125]"/>
+        </Property>
+      </Properties>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_InitCodePost" type="java.lang.String" value="exitDialog.pack();"/>
+      </AuxValues>
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="e_AskForSave" pref="494" max="32767" attributes="0"/>
+              </Group>
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace min="-2" pref="46" max="-2" attributes="0"/>
+                  <Component id="e_DontSaveButton" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace max="32767" attributes="0"/>
+                  <Component id="e_CancelButton" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="e_SaveButton" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace min="-2" pref="46" max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace min="-2" pref="29" max="-2" attributes="0"/>
+                  <Component id="e_AskForSave" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="e_DontSaveButton" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="e_CancelButton" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="e_SaveButton" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace pref="39" max="32767" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JLabel" name="e_AskForSave">
+          <Properties>
+            <Property name="horizontalAlignment" type="int" value="0"/>
+            <Property name="text" type="java.lang.String" value="Do you want to save the changes you made to your employee database?"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JButton" name="e_DontSaveButton">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Don&apos;t save"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="e_DontSaveButtonActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JButton" name="e_CancelButton">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Cancel"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="e_CancelButtonActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JButton" name="e_SaveButton">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Save"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="e_SaveButtonActionPerformed"/>
+          </Events>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Container class="javax.swing.JDialog" name="deleteDialog">
+      <Properties>
+        <Property name="title" type="java.lang.String" value="Diamond 2013"/>
+        <Property name="iconImage" type="java.awt.Image" editor="org.netbeans.modules.form.ComponentChooserEditor">
+          <ComponentRef name="null"/>
+        </Property>
+        <Property name="location" type="java.awt.Point" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+          <Connection code="new Point(mainWindow.getBounds().x + mainWindow.getBounds().width/2 - 250, mainWindow.getBounds().y + mainWindow.getBounds().height/2 - 75)" type="code"/>
+        </Property>
+        <Property name="minimumSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+          <Dimension value="[500, 125]"/>
+        </Property>
+      </Properties>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_InitCodePost" type="java.lang.String" value="deleteDialog.pack();"/>
+      </AuxValues>
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace min="-2" pref="41" max="-2" attributes="0"/>
+                  <Component id="d_NoDeleteButton" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace pref="278" max="32767" attributes="0"/>
+                  <Component id="d_YesDeleteButton" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace min="-2" pref="56" max="-2" attributes="0"/>
+              </Group>
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="d_AskForDelete" max="32767" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="1" attributes="0">
+                  <EmptySpace pref="19" max="32767" attributes="0"/>
+                  <Component id="d_AskForDelete" min="-2" pref="22" max="-2" attributes="0"/>
+                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="d_NoDeleteButton" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="d_YesDeleteButton" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace min="-2" pref="12" max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JLabel" name="d_AskForDelete">
+          <Properties>
+            <Property name="horizontalAlignment" type="int" value="0"/>
+            <Property name="text" type="java.lang.String" value="--"/>
+            <Property name="horizontalTextPosition" type="int" value="0"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JButton" name="d_NoDeleteButton">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="No"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="d_NoDeleteButtonActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JButton" name="d_YesDeleteButton">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Yes"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="d_YesDeleteButtonActionPerformed"/>
+          </Events>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Container class="javax.swing.JDialog" name="confirmationDialog">
+      <Properties>
+        <Property name="title" type="java.lang.String" value="Diamond 2013"/>
+        <Property name="size" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+          <Dimension value="[400, 150]"/>
+        </Property>
+      </Properties>
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="c_Confirmation" pref="388" max="32767" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="c_Confirmation" pref="116" max="32767" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JLabel" name="c_Confirmation">
+          <Properties>
+            <Property name="horizontalAlignment" type="int" value="0"/>
+            <Property name="text" type="java.lang.String" value="--"/>
+          </Properties>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Container class="javax.swing.JDialog" name="fullViewDialog">
+      <Properties>
+        <Property name="title" type="java.lang.String" value="Diamond 2013"/>
+        <Property name="bounds" type="java.awt.Rectangle" editor="org.netbeans.beaninfo.editors.RectangleEditor">
+          <Rectangle value="[0, 0, 1250, 450]"/>
+        </Property>
+      </Properties>
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="f_Panel" pref="1238" max="32767" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="f_Panel" pref="438" max="32767" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Container class="javax.swing.JScrollPane" name="f_Panel">
+          <AuxValues>
+            <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+          </AuxValues>
+
+          <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+          <SubComponents>
+            <Component class="javax.swing.JTable" name="f_Table">
+              <Properties>
+                <Property name="model" type="javax.swing.table.TableModel" editor="org.netbeans.modules.form.editors2.TableModelEditor">
+                  <Table columnCount="11" rowCount="4">
+                    <Column editable="false" title="Employee Number" type="java.lang.Object"/>
+                    <Column editable="false" title="Employment" type="java.lang.Object"/>
+                    <Column editable="false" title="Sex" type="java.lang.Object"/>
+                    <Column editable="false" title="First Name" type="java.lang.Object"/>
+                    <Column editable="false" title="Last Name" type="java.lang.Object"/>
+                    <Column editable="false" title="Deduction Rate" type="java.lang.Object"/>
+                    <Column editable="false" title="Hourly Wage" type="java.lang.Object"/>
+                    <Column editable="false" title="Hours/Week" type="java.lang.Object"/>
+                    <Column editable="false" title="Weeks/Year" type="java.lang.Object"/>
+                    <Column editable="false" title="Annual Salary" type="java.lang.Object"/>
+                    <Column editable="false" title="Annual Net Income" type="java.lang.Object"/>
+                  </Table>
+                </Property>
+                <Property name="columnModel" type="javax.swing.table.TableColumnModel" editor="org.netbeans.modules.form.editors2.TableColumnModelEditor">
+                  <TableColumnModel selectionModel="0">
+                    <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                      <Title/>
+                      <Editor/>
+                      <Renderer/>
+                    </Column>
+                    <Column maxWidth="100" minWidth="100" prefWidth="100" resizable="true">
+                      <Title/>
+                      <Editor/>
+                      <Renderer/>
+                    </Column>
+                    <Column maxWidth="50" minWidth="50" prefWidth="50" resizable="true">
+                      <Title/>
+                      <Editor/>
+                      <Renderer/>
+                    </Column>
+                    <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                      <Title/>
+                      <Editor/>
+                      <Renderer/>
+                    </Column>
+                    <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                      <Title/>
+                      <Editor/>
+                      <Renderer/>
+                    </Column>
+                    <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                      <Title/>
+                      <Editor/>
+                      <Renderer/>
+                    </Column>
+                    <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                      <Title/>
+                      <Editor/>
+                      <Renderer/>
+                    </Column>
+                    <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                      <Title/>
+                      <Editor/>
+                      <Renderer/>
+                    </Column>
+                    <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                      <Title/>
+                      <Editor/>
+                      <Renderer/>
+                    </Column>
+                    <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                      <Title/>
+                      <Editor/>
+                      <Renderer/>
+                    </Column>
+                    <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                      <Title/>
+                      <Editor/>
+                      <Renderer/>
+                    </Column>
+                  </TableColumnModel>
+                </Property>
+                <Property name="tableHeader" type="javax.swing.table.JTableHeader" editor="org.netbeans.modules.form.editors2.JTableHeaderEditor">
+                  <TableHeader reorderingAllowed="true" resizingAllowed="true"/>
+                </Property>
+              </Properties>
+            </Component>
+          </SubComponents>
+        </Container>
+      </SubComponents>
+    </Container>
+  </NonVisualComponents>
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="0"/>
+    <Property name="title" type="java.lang.String" value="Diamond 2013"/>
+    <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
+      <Color id="Default Cursor"/>
+    </Property>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <Events>
+    <EventHandler event="windowClosing" listener="java.awt.event.WindowListener" parameters="java.awt.event.WindowEvent" handler="WindowClosing"/>
+  </Events>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="2"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Component id="mainWindow" alignment="0" max="32767" attributes="0"/>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <Component id="mainWindow" min="-2" pref="400" max="-2" attributes="0"/>
+              <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Container class="javax.swing.JTabbedPane" name="mainWindow">
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout"/>
+      <SubComponents>
+        <Container class="javax.swing.JPanel" name="addPartTimePanel">
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
+              <JTabbedPaneConstraints tabName="Add Part-Time Employee">
+                <Property name="tabTitle" type="java.lang.String" value="Add Part-Time Employee"/>
+              </JTabbedPaneConstraints>
+            </Constraint>
+          </Constraints>
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="1" attributes="0">
+                      <Group type="103" groupAlignment="1" attributes="0">
+                          <Group type="102" attributes="0">
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="2" attributes="0">
+                                  <Component id="apt_EmployeeNumber" alignment="2" max="32767" attributes="0"/>
+                                  <Group type="102" attributes="0">
+                                      <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                                      <Component id="apt_SaveDatabaseButton" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Component id="apt_GenerateEmployeeNumberButton" alignment="2" min="-2" max="-2" attributes="0"/>
+                                  <Component id="apt_AddEmployeeButton" alignment="2" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace min="-2" pref="40" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="apt_NotEnoughInfoWarning" max="32767" attributes="0"/>
+                                  <Group type="102" attributes="0">
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Component id="apt_FirstName" min="-2" max="-2" attributes="0"/>
+                                          <Component id="apt_Sex" min="-2" max="-2" attributes="0"/>
+                                          <Component id="apt_LastName" alignment="0" min="-2" max="-2" attributes="0"/>
+                                          <Component id="apt_DeductionRate" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                      <EmptySpace min="-2" pref="35" max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                          <Component id="apt_FirstNameField" pref="150" max="32767" attributes="0"/>
+                                          <Component id="apt_LastNameField" alignment="0" max="32767" attributes="0"/>
+                                          <Component id="apt_SexCombo" alignment="0" min="-2" max="-2" attributes="0"/>
+                                          <Component id="apt_DeductionRateField" max="32767" attributes="0"/>
+                                      </Group>
+                                      <EmptySpace min="-2" pref="83" max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Component id="apt_HoursWeek" alignment="0" min="-2" max="-2" attributes="0"/>
+                                          <Component id="apt_WeeksYear" alignment="0" min="-2" max="-2" attributes="0"/>
+                                          <Component id="apt_HourlyWage" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                      <EmptySpace pref="56" max="32767" attributes="0"/>
+                                      <Group type="103" groupAlignment="1" max="-2" attributes="0">
+                                          <Component id="apt_HourlyWageField" pref="200" max="32767" attributes="0"/>
+                                          <Component id="apt_HoursWeekField" alignment="1" max="32767" attributes="0"/>
+                                          <Component id="apt_WeeksYearField" alignment="1" max="32767" attributes="0"/>
+                                      </Group>
+                                  </Group>
+                              </Group>
+                              <EmptySpace min="34" pref="34" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="apt_SaveDatabaseButton" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="apt_GenerateEmployeeNumberButton" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="apt_EmployeeNumber" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="apt_SexCombo" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="apt_Sex" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="apt_HourlyWage" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="apt_HourlyWageField" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="-2" pref="6" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="apt_FirstName" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="apt_FirstNameField" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="apt_HoursWeek" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="apt_HoursWeekField" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="apt_LastName" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="apt_LastNameField" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="apt_WeeksYear" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="apt_WeeksYearField" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="-2" pref="6" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="apt_DeductionRate" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="apt_DeductionRateField" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="apt_AddEmployeeButton" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Component id="apt_NotEnoughInfoWarning" pref="101" max="32767" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Component class="javax.swing.JButton" name="apt_GenerateEmployeeNumberButton">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Generate Employee Number"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="apt_GenerateEmployeeNumberButtonActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JLabel" name="apt_EmployeeNumber">
+              <Properties>
+                <Property name="horizontalAlignment" type="int" value="0"/>
+                <Property name="text" type="java.lang.String" value="000000"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="apt_Sex">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Sex"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JComboBox" name="apt_SexCombo">
+              <Properties>
+                <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+                  <StringArray count="2">
+                    <StringItem index="0" value="Male"/>
+                    <StringItem index="1" value="Female"/>
+                  </StringArray>
+                </Property>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="apt_FirstName">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="First Name"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="apt_FirstNameField">
+            </Component>
+            <Component class="javax.swing.JLabel" name="apt_LastName">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Last Name"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="apt_LastNameField">
+            </Component>
+            <Component class="javax.swing.JLabel" name="apt_DeductionRate">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Deduction Rate"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="apt_HourlyWage">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Hourly Wage"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="apt_HourlyWageField">
+            </Component>
+            <Component class="javax.swing.JLabel" name="apt_HoursWeek">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Hours/Week"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="apt_HoursWeekField">
+            </Component>
+            <Component class="javax.swing.JLabel" name="apt_WeeksYear">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Weeks/Year"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="apt_WeeksYearField">
+            </Component>
+            <Component class="javax.swing.JButton" name="apt_AddEmployeeButton">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Add Employee"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="apt_AddEmployeeButtonActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JLabel" name="apt_NotEnoughInfoWarning">
+              <Properties>
+                <Property name="horizontalAlignment" type="int" value="0"/>
+                <Property name="verticalAlignment" type="int" value="1"/>
+                <Property name="horizontalTextPosition" type="int" value="0"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JButton" name="apt_SaveDatabaseButton">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Save Database"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="apt_SaveDatabaseButtonActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JTextField" name="apt_DeductionRateField">
+              <AuxValues>
+                <AuxValue name="JavaCodeGenerator_InitCodePre" type="java.lang.String" value="apt_DeductionRateField.setInputVerifier (deductionRateVerifier);"/>
+              </AuxValues>
+            </Component>
+          </SubComponents>
+        </Container>
+        <Container class="javax.swing.JPanel" name="addFullTimePanel">
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
+              <JTabbedPaneConstraints tabName="Add Full-Time Employee">
+                <Property name="tabTitle" type="java.lang.String" value="Add Full-Time Employee"/>
+              </JTabbedPaneConstraints>
+            </Constraint>
+          </Constraints>
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="2" attributes="0">
+                                  <Component id="aft_EmployeeNumber" alignment="2" max="32767" attributes="0"/>
+                                  <Component id="aft_GenerateEmployeeNumberButton" alignment="2" min="-2" max="-2" attributes="0"/>
+                                  <Component id="aft_AddEmployeeButton" alignment="2" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <Group type="102" alignment="1" attributes="0">
+                              <EmptySpace max="32767" attributes="0"/>
+                              <Component id="aft_SaveDatabaseButton" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="1" attributes="0">
+                              <EmptySpace min="-2" pref="40" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="aft_FirstName" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="aft_Sex" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="aft_LastName" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="aft_DeductionRate" alignment="0" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace min="-2" pref="35" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                  <Component id="aft_LastNameField" alignment="0" max="32767" attributes="0"/>
+                                  <Component id="aft_SexCombo" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="aft_DeductionRateField" alignment="0" pref="150" max="32767" attributes="0"/>
+                                  <Component id="aft_FirstNameField" alignment="1" max="32767" attributes="0"/>
+                              </Group>
+                              <EmptySpace min="-2" pref="83" max="-2" attributes="0"/>
+                              <Component id="aft_AnnualSalary" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace pref="50" max="32767" attributes="0"/>
+                              <Component id="aft_AnnualSalaryField" min="-2" pref="200" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="34" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="aft_SaveDatabaseButton" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="aft_GenerateEmployeeNumberButton" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="aft_EmployeeNumber" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="aft_SexCombo" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="aft_Sex" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="aft_AnnualSalary" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="aft_AnnualSalaryField" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="-2" pref="6" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="aft_FirstName" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="aft_FirstNameField" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="aft_LastName" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="aft_LastNameField" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="-2" pref="6" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="aft_DeductionRate" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="aft_DeductionRateField" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="aft_AddEmployeeButton" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace pref="125" max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Component class="javax.swing.JButton" name="aft_GenerateEmployeeNumberButton">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Generate Employee Number"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="aft_GenerateEmployeeNumberButtonActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JLabel" name="aft_EmployeeNumber">
+              <Properties>
+                <Property name="horizontalAlignment" type="int" value="0"/>
+                <Property name="text" type="java.lang.String" value="000000"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="aft_Sex">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Sex"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JComboBox" name="aft_SexCombo">
+              <Properties>
+                <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+                  <StringArray count="2">
+                    <StringItem index="0" value="Male"/>
+                    <StringItem index="1" value="Female"/>
+                  </StringArray>
+                </Property>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="aft_FirstName">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="First Name"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="aft_FirstNameField">
+            </Component>
+            <Component class="javax.swing.JLabel" name="aft_LastName">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Last Name"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="aft_LastNameField">
+            </Component>
+            <Component class="javax.swing.JLabel" name="aft_DeductionRate">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Deduction Rate"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="aft_DeductionRateField">
+            </Component>
+            <Component class="javax.swing.JLabel" name="aft_AnnualSalary">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Annual Salary"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="aft_AnnualSalaryField">
+            </Component>
+            <Component class="javax.swing.JButton" name="aft_AddEmployeeButton">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Add Employee"/>
+                <Property name="horizontalAlignment" type="int" value="2"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="aft_AddEmployeeButtonActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JButton" name="aft_SaveDatabaseButton">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Save Database"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="aft_SaveDatabaseButtonActionPerformed"/>
+              </Events>
+            </Component>
+          </SubComponents>
+        </Container>
+        <Container class="javax.swing.JPanel" name="searchPanel">
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
+              <JTabbedPaneConstraints tabName="Search for an Employee">
+                <Property name="tabTitle" type="java.lang.String" value="Search for an Employee"/>
+              </JTabbedPaneConstraints>
+            </Constraint>
+          </Constraints>
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="1" attributes="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" attributes="0">
+                              <EmptySpace min="12" pref="12" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="s_Employment" min="-2" max="-2" attributes="0"/>
+                                  <Component id="s_SearchEmployeeNumber" min="-2" max="-2" attributes="0"/>
+                                  <Component id="s_FirstName" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="s_LastName" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="s_DeductionRate" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="s_EmployeeNumber" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="s_Sex" alignment="0" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="s_SearchEmployeeButton" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" attributes="0">
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Group type="103" groupAlignment="1" max="-2" attributes="0">
+                                          <Component id="s_EmployeeNumberDisplay" alignment="0" max="32767" attributes="0"/>
+                                          <Component id="s_SexCombo" alignment="0" min="-2" max="-2" attributes="0"/>
+                                          <Component id="s_FirstNameField" alignment="0" pref="180" max="32767" attributes="0"/>
+                                          <Component id="s_LastNameField" alignment="0" pref="180" max="32767" attributes="0"/>
+                                          <Component id="s_DeductionRateField" alignment="0" pref="180" max="32767" attributes="0"/>
+                                      </Group>
+                                      <EmptySpace min="-2" pref="50" max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Component id="s_AnnualNetIncome" alignment="0" min="-2" max="-2" attributes="0"/>
+                                          <Component id="s_HoursWeek" min="-2" max="-2" attributes="0"/>
+                                          <Component id="s_HourlyWage" min="-2" max="-2" attributes="0"/>
+                                          <Component id="s_WeeksYear" min="-2" max="-2" attributes="0"/>
+                                          <Component id="s_AnnualSalary" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                  </Group>
+                                  <Component id="s_EmploymentCombo" alignment="0" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace max="32767" attributes="0"/>
+                              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                  <Component id="s_WeeksYearField" alignment="1" max="32767" attributes="0"/>
+                                  <Component id="s_HoursWeekField" alignment="1" max="32767" attributes="0"/>
+                                  <Component id="s_HourlyWageField" alignment="1" max="32767" attributes="0"/>
+                                  <Component id="s_AnnualSalaryField" alignment="1" max="32767" attributes="0"/>
+                                  <Component id="s_AnnualNetIncomeDisplay" min="-2" pref="190" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <Group type="102" alignment="1" attributes="0">
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Component id="s_RemoveEmployeeButton" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                                      <Component id="s_ModifyEmployeeButton" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Component id="s_SearchEmployeeNumberField" alignment="0" min="-2" pref="180" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace pref="117" max="32767" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="s_ViewDataBase" alignment="1" min="-2" max="-2" attributes="0"/>
+                                  <Component id="s_SaveDatabaseButton" alignment="1" min="-2" pref="134" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="s_SearchEmployeeButton" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="s_RemoveEmployeeButton" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="s_SaveDatabaseButton" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="s_ModifyEmployeeButton" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="s_SearchEmployeeNumber" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="s_SearchEmployeeNumberField" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="s_ViewDataBase" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" attributes="0">
+                              <EmptySpace min="-2" pref="19" max="-2" attributes="0"/>
+                              <Component id="s_EmployeeNumber" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Component id="s_EmployeeNumberDisplay" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="103" alignment="1" groupAlignment="3" attributes="0">
+                              <Component id="s_AnnualSalary" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="s_AnnualSalaryField" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="103" alignment="0" groupAlignment="1" attributes="0">
+                              <Component id="s_Sex" min="-2" max="-2" attributes="0"/>
+                              <Component id="s_SexCombo" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="s_FirstName" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="s_FirstNameField" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="s_HourlyWage" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="s_HourlyWageField" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="s_LastName" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="s_LastNameField" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="s_HoursWeek" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="s_HoursWeekField" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="s_DeductionRate" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="s_DeductionRateField" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="s_WeeksYear" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="s_WeeksYearField" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="s_Employment" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="s_EmploymentCombo" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="s_AnnualNetIncome" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="s_AnnualNetIncomeDisplay" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace pref="55" max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Component class="javax.swing.JButton" name="s_SearchEmployeeButton">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Search for Employee"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="s_SearchEmployeeButtonActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JButton" name="s_RemoveEmployeeButton">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Remove Employee"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="s_RemoveEmployeeButtonActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JLabel" name="s_SearchEmployeeNumber">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Search for Employee #"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="s_SearchEmployeeNumberField">
+            </Component>
+            <Component class="javax.swing.JLabel" name="s_Sex">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Sex"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="s_FirstName">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="First Name"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="s_LastName">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Last Name"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="s_DeductionRate">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Deduction Rate"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="s_Employment">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Employment"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="s_AnnualSalary">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Annual Salary"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="s_HourlyWage">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Hourly Wage"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="s_HoursWeek">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Hours/Week"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="s_WeeksYear">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Weeks/Year"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="s_AnnualNetIncome">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Annual Net Income"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JButton" name="s_SaveDatabaseButton">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Save Database"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="s_SaveDatabaseButtonActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JLabel" name="s_EmployeeNumber">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Employee Number"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="s_EmployeeNumberDisplay">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="--"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JButton" name="s_ModifyEmployeeButton">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Modify Employee"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="s_ModifyEmployeeButtonActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JComboBox" name="s_SexCombo">
+              <Properties>
+                <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+                  <StringArray count="2">
+                    <StringItem index="0" value="Male"/>
+                    <StringItem index="1" value="Female"/>
+                  </StringArray>
+                </Property>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="s_FirstNameField">
+            </Component>
+            <Component class="javax.swing.JTextField" name="s_LastNameField">
+            </Component>
+            <Component class="javax.swing.JTextField" name="s_DeductionRateField">
+            </Component>
+            <Component class="javax.swing.JTextField" name="s_WeeksYearField">
+            </Component>
+            <Component class="javax.swing.JTextField" name="s_HoursWeekField">
+            </Component>
+            <Component class="javax.swing.JTextField" name="s_HourlyWageField">
+            </Component>
+            <Component class="javax.swing.JTextField" name="s_AnnualSalaryField">
+            </Component>
+            <Component class="javax.swing.JLabel" name="s_AnnualNetIncomeDisplay">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="--"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JComboBox" name="s_EmploymentCombo">
+              <Properties>
+                <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+                  <StringArray count="2">
+                    <StringItem index="0" value="Part-Time"/>
+                    <StringItem index="1" value="Full-Time"/>
+                  </StringArray>
+                </Property>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="s_EmploymentComboActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JButton" name="s_ViewDataBase">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="View Database"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="s_ViewDataBaseActionPerformed"/>
+              </Events>
+            </Component>
+          </SubComponents>
+        </Container>
+      </SubComponents>
+    </Container>
+  </SubComponents>
+</Form>
